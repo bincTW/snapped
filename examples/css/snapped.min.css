@@ -1,8 +1,8 @@
-/*  
+/*
     snapped CSS
-    Version 0.1.0 
+    Version 0.1.0
     Created by Thomas Weber
     Copyright 2022 binaries included
     MIT License
 */
-body{overflow:hidden;height:100vh;height:-webkit-fill-available}.snap-container{scroll-snap-type:y mandatory;height:100vh;height:-webkit-fill-available;overflow-y:auto}.snap-container.horizontal{scroll-snap-type:x mandatory;display:flex}.snap-view{min-height:100vh;min-height:-webkit-fill-available;scroll-snap-align:start}.snap-container.horizontal .snap-view{min-width:100vw;height:100vh;height:-webkit-fill-available}.snap-pagination{position:fixed;z-index:100;left:20px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:5px}.snap-pagination.horizontal{left:50%;top:auto;bottom:30px;bottom:calc(-webkit-fill-available - 30px);transform:translateX(-50%);flex-direction:row}.snap-pagination-dot{width:10px;height:10px;background-color:rgba(255,255,255,.35);background-blend-mode:multiply;border-radius:50%;cursor:pointer}.snap-pagination-dot:not(.active):hover{background-color:rgba(255,255,255,.45)}.snap-pagination-dot.active{background-color:rgba(255,255,255,.95)}
+html{height:-webkit-fill-available}body{overflow:hidden;height:100vh;height:-webkit-fill-available}.snap-container{scroll-snap-type:y mandatory;height:100vh;height:-webkit-fill-available;overflow-y:auto}.snap-container.horizontal{scroll-snap-type:x mandatory;display:flex}.snap-view{min-height:100vh;min-height:-webkit-fill-available;scroll-snap-align:start}.snap-container.horizontal .snap-view{min-width:100vw;height:100vh;height:-webkit-fill-available}.snap-pagination{position:fixed;z-index:100;left:20px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:5px}.snap-pagination.horizontal{left:50%;top:auto;bottom:30px;bottom:calc(-webkit-fill-available - 30px);transform:translateX(-50%);flex-direction:row}.snap-pagination-dot{width:10px;height:10px;background-color:rgba(255,255,255,.35);background-blend-mode:multiply;border-radius:50%;cursor:pointer}.snap-pagination-dot:not(.active):hover{background-color:rgba(255,255,255,.45)}.snap-pagination-dot.active{background-color:rgba(255,255,255,.95)}
