@@ -59,5 +59,8 @@ new Snapped({
 });
 ```
 
-
+  
+  
+<br><br>
 Check out [Examples](examples) for more details.
+
