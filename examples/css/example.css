@@ -1,0 +1,76 @@
+/*
+    snapped example page 
+*/
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  overflow-x: hidden;
+}
+main.horizontal {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+section {
+  display: grid;
+  place-content: center;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 25vw;
+  line-height: 1;
+}
+section:nth-child(1) {
+  background-color: #7B1E7A;
+}
+section:nth-child(2) {
+  background-color: #B33F62;
+}
+section:nth-child(2) div {
+  opacity: 0;
+}
+section:nth-child(3) {
+  background-color: #F9564F;
+}
+section:nth-child(4) {
+  background-color: #F3C677;
+}
+span[data-animation] {
+  display: inline-block;
+  transform: rotate3d(0, 1, 0, 180deg);
+  transform-origin: center;
+}
+.spin {
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+@keyframes spin {
+  0% {
+    transform: rotate3d(0, 1, 0, 180deg);
+  }
+  100% {
+    transform: rotate3d(0, 0, 1, 0);
+  }
+}
+.puffIn {
+  animation-name: puffIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@keyframes puffIn {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale3d(0, 0, 1)
+  }
+  100% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale3d(1, 1, 1)
+  }
+}
