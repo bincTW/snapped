@@ -57,10 +57,16 @@ new Snapped({
         showPagination: true, // show pagination dots
         triggerAnimations: true // only required if you want CSS classes automatically applied to visible slide child elements
 });
-```
-
-  
-  
+```  
 <br><br>
 Check out [Examples](examples) for more details.
+<br><br>
+## Demos
+[Vertical slides](https://binctw.github.io/snapped/examples/index.html)
+
+[Horizontal slides](https://binctw.github.io/snapped/examples/index-horizontal.html)
+
+[CSS only](https://binctw.github.io/snapped/examples/index-css-only.html)
+
+
 
