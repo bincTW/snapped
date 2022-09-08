@@ -1,7 +1,7 @@
 ![snapped](https://user-images.githubusercontent.com/28933274/189217580-b2c8b2bf-6b7a-4ed3-a143-0538d0e8915d.png)
 
 # snapped
-A minimal native fullpage scroller for modern browsers
+A minimal native fullpage scroller for modern browsers<br>
 Version 0.1.0
 
 - Uses CSS scrollsnap and JS IntersectionObserver
