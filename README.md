@@ -59,7 +59,7 @@ new Snapped({
 });
 ```  
 <br><br>
-Check out [Examples](examples) for more details.
+Check out [Examples](https://github.com/bincTW/snapped/tree/main/examples) for more details.
 <br><br>
 ## Demos
 [Vertical slides](https://binctw.github.io/snapped/examples/index.html)
