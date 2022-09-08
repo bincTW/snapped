@@ -60,4 +60,4 @@ new Snapped({
 ```
 
 
-Check out [Examples](snapped/tree/master/examles) for more details.
+Check out [Examples](examples) for more details.
