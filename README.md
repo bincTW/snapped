@@ -13,7 +13,7 @@ Version 0.1.0
 ### HTML Markup
 
 Add `.snap-container` class to your container element. 
-Add `.snap-view` class to your slides container.
+Add `.snap-view` class to your slide containers.
 
 Add a `data-view` attribute with an *anchor name* to each slide container if you enabled the pagination. 
 
